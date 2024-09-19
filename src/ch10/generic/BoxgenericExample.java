@@ -17,7 +17,8 @@ public class BoxgenericExample {
 
         // 제네릭 메소드
         Box<String> value = Util.boxing("문자열값");    // ?
-//        Box<String> value2 = Util.boxing("12345");
+        Box<Integer> value2 = Util.boxing(12345);
+        Box<Double> value3 = Util.boxing(12.34);
     }
 }
 
